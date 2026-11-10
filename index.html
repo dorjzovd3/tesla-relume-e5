@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="mn">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tesla Монгол</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap&subset=cyrillic" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Navbar / 2 -->
+  <header class="navbar">
+    <div class="navbar__container">
+      <div class="navbar__brand">
+        <a href="#" class="logo" aria-label="Tesla нүүр хуудас">
+          <img src="assets/icons/logo.svg" width="70" height="36" alt="Tesla" />
+        </a>
+      </div>
+
+      <button class="navbar__toggle" type="button" aria-label="Цэс нээх" aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="navbar__menu" id="nav-menu">
+        <ul class="navbar__links">
+          <li><a href="#" class="nav-link">Mашины загвар</a></li>
+          <li><a href="#model-y" class="nav-link">Model Y</a></li>
+          <li><a href="#model-3" class="nav-link">Model 3</a></li>
+          <li><a href="#" class="nav-link">Model S</a></li>
+          <li><a href="#cybertruck" class="nav-link">Cybertuck</a></li>
+        </ul>
+        <div class="navbar__actions">
+          <a href="#" class="btn btn--primary btn--sm">Захиалах</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Header / 30 -->
+    <section class="hero">
+      <img class="hero__bg" src="assets/images/hero.jpg" alt="" />
+      <div class="hero__overlay"></div>
+      <div class="hero__container">
+        <div class="hero__column">
+          <div class="hero__content">
+            <h1 class="heading-1">Хүлээлт дууслаа. Tesla Монголд ирлээ!</h1>
+            <p class="text-medium">2.49% Хүүтэй</p>
+          </div>
+          <div class="actions">
+            <a href="#" class="btn btn--primary">Захиалах</a>
+            <a href="#" class="btn btn--secondary">Бусад мэдээлэл</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery / 16 — Model Y -->
+    <section class="section" id="model-y">
+      <div class="container">
+        <div class="section-title">
+          <h2 class="heading-2">Model Y</h2>
+          <p class="text-medium">Өөрөө жолооддог машинтай танилцаарай. Туршилтын жолоодлогоо өнөөдөр товлоорой.</p>
+        </div>
+        <div class="slider" data-slider>
+          <div class="slider__viewport">
+            <div class="slider__track">
+              <div class="slider__slide"><img src="assets/images/model-y-1.png" alt="Model Y — цэнхэр" /></div>
+              <div class="slider__slide"><img src="assets/images/model-y-2.jpg" alt="Model Y — цагаан" /></div>
+              <div class="slider__slide"><img src="assets/images/placeholder.png" alt="" /></div>
+              <div class="slider__slide"><img src="assets/images/placeholder.png" alt="" /></div>
+            </div>
+          </div>
+          <button class="slider__arrow slider__arrow--prev" type="button" aria-label="Өмнөх">
+            <img src="assets/icons/arrow-back.svg" width="24" height="24" alt="" />
+          </button>
+          <button class="slider__arrow slider__arrow--next" type="button" aria-label="Дараах">
+            <img src="assets/icons/arrow-forward.svg" width="24" height="24" alt="" />
+          </button>
+          <div class="slider__dots"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA / 1 -->
+    <section class="section">
+      <div class="container container--start">
+        <div class="cta">
+          <div class="cta__column">
+            <div class="cta__content">
+              <h2 class="heading-2">Онцгой санал</h2>
+              <p class="text-medium">Tesla-гийн хугацаатай онцгой саналуудыг бүү алдаарай.</p>
+            </div>
+            <div class="actions">
+              <a href="#" class="btn btn--primary">Захиалах</a>
+              <a href="#" class="btn btn--secondary">Бусад мэдээлэл</a>
+            </div>
+          </div>
+          <div class="cta__image">
+            <img src="assets/images/offer.png" alt="Tesla загварууд" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery / 16 — Model 3 -->
+    <section class="section" id="model-3">
+      <div class="container">
+        <div class="section-title">
+          <h2 class="heading-2">Model 3</h2>
+          <p class="text-medium">Туршилтын жолоодлого товлох</p>
+        </div>
+        <div class="slider" data-slider>
+          <div class="slider__viewport">
+            <div class="slider__track">
+              <div class="slider__slide"><img src="assets/images/hero.jpg" alt="Model 3 — хотод" /></div>
+              <div class="slider__slide"><img src="assets/images/model-3-2.jpg" alt="Model 3 — улаан" /></div>
+              <div class="slider__slide"><img src="assets/images/placeholder.png" alt="" /></div>
+              <div class="slider__slide"><img src="assets/images/placeholder.png" alt="" /></div>
+            </div>
+          </div>
+          <button class="slider__arrow slider__arrow--prev" type="button" aria-label="Өмнөх">
+            <img src="assets/icons/arrow-back.svg" width="24" height="24" alt="" />
+          </button>
+          <button class="slider__arrow slider__arrow--next" type="button" aria-label="Дараах">
+            <img src="assets/icons/arrow-forward.svg" width="24" height="24" alt="" />
+          </button>
+          <div class="slider__dots"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery / 10 -->
+    <section class="section section--dark">
+      <div class="container">
+        <div class="section-title">
+          <h2 class="heading-2">Зургийн цомог</h2>
+          <p class="text-medium">Model Y, Model 3, Cybertruck-ийн зургуудыг үзээрэй.</p>
+        </div>
+        <div class="masonry">
+          <div class="masonry__column">
+            <img class="ratio-square" src="assets/images/gallery-placeholder.png" alt="" />
+            <img class="ratio-square" src="assets/images/gallery-placeholder.png" alt="" />
+          </div>
+          <div class="masonry__column">
+            <img class="ratio-wide" src="assets/images/gallery-placeholder.png" alt="" />
+            <img class="ratio-wide" src="assets/images/gallery-placeholder.png" alt="" />
+            <img class="ratio-square" src="assets/images/gallery-placeholder.png" alt="" />
+          </div>
+          <div class="masonry__column">
+            <img class="ratio-square" src="assets/images/gallery-placeholder.png" alt="" />
+            <img class="ratio-square" src="assets/images/gallery-placeholder.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery / 16 — Cybertruck -->
+    <section class="section" id="cybertruck">
+      <div class="container">
+        <div class="section-title">
+          <h2 class="heading-2">Cybertruck</h2>
+          <p class="text-medium">Туршилтын жолоодлого товлох</p>
+        </div>
+        <div class="slider" data-slider>
+          <div class="slider__viewport">
+            <div class="slider__track">
+              <div class="slider__slide"><img src="assets/images/cybertruck-1.jpg" alt="Cybertruck — урдаас" /></div>
+              <div class="slider__slide"><img src="assets/images/cybertruck-2.jpg" alt="Cybertruck — уулын замд" /></div>
+              <div class="slider__slide"><img src="assets/images/placeholder.png" alt="" /></div>
+              <div class="slider__slide"><img src="assets/images/placeholder.png" alt="" /></div>
+            </div>
+          </div>
+          <button class="slider__arrow slider__arrow--prev" type="button" aria-label="Өмнөх">
+            <img src="assets/icons/arrow-back.svg" width="24" height="24" alt="" />
+          </button>
+          <button class="slider__arrow slider__arrow--next" type="button" aria-label="Дараах">
+            <img src="assets/icons/arrow-forward.svg" width="24" height="24" alt="" />
+          </button>
+          <div class="slider__dots"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer / 7 -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <a href="#" class="logo" aria-label="Tesla нүүр хуудас">
+          <img src="assets/icons/logo.svg" width="70" height="36" alt="Tesla" />
+        </a>
+        <ul class="footer__links">
+          <li><a href="#">Tesla © 2026</a></li>
+          <li><a href="#">Нууцлал ба эрх зүй</a></li>
+          <li><a href="#">Засвар үйлчилгээний дуудлага:</a></li>
+          <li><a href="#">Бидэнтэй холбогдох</a></li>
+          <li><a href="#">Мэдээ</a></li>
+        </ul>
+      </div>
+      <div class="footer__credits">
+        <img class="footer__divider" src="assets/icons/divider.svg" width="1280" height="1" alt="" />
+        <div class="footer__row">
+          <p>Tesla © 2026</p>
+          <ul class="footer__legal">
+            <li><a href="#">Нууцлал ба эрх зүй</a></li>
+            <li><a href="#">Үйлчилгээний нөхцөл</a></li>
+            <li><a href="#">Cookies Settings</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
